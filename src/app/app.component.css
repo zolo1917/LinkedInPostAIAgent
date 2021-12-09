@@ -52,6 +52,27 @@
   display: inline-flex;
 }
 
+.testimonialImage {
+  height: 200px;
+  width: 200px;
+  border-radius: 146px;
+}
+
+.footer {
+  width: 100%;
+  background: #001524;
+}
+
+.copyWriteText {
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
 .row {
   display: inline-flex;
   justify-content: center;
