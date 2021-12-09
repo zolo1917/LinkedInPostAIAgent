@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  background: #001524;
+}
+
+.copyWriteText {
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #ffffff;
+}

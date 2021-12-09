@@ -1,0 +1,47 @@
+.oateyLogo {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  width: 192px;
+  height: 113px;
+  left: 10px;
+  top: 4px;
+  padding-top: 10px;
+  background: url(../../assets/cropped-cropped-14-192x113.png);
+  border-radius: 41px;
+}
+
+.navbar-ul {
+  list-style-type: none;
+  height: 115px;
+  overflow: hidden;
+  padding-inline-start: 10px;
+  background-color: #f2f2f2;
+}
+
+.navbar-li {
+  display: inline;
+  float: left;
+  align-content: center;
+  padding-left: 20px;
+}
+
+.navbar-a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  cursor: pointer;
+  padding: 40px 10px;
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 33px;
+}
+
+.navbar-a:hover {
+  color: #8bc34a;
+}
+.navbar-a::selection {
+  color: #8bc34a;
+}
