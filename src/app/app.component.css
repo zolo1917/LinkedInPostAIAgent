@@ -49,25 +49,59 @@
 .imagediv {
   position: relative;
   width: 50%;
-  display: inline;
+  display: inline-flex;
+}
+
+.row {
+  display: inline-flex;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.col-1 {
+  flex: 50%;
+  float: left;
+  align-items: center;
+}
+
+.oateyImagediv {
+  size-adjust: inherit;
+  display: inline-block;
 }
 
 .oateyImage {
-  width: 500px;
-  height: 500px;
-  left: 150px;
-  display: inline-block;
-  top: 150px;
-  background: url(../../Icons/Music-Store-Etsy-Shop-Icon-17.png);
+  margin: 20%;
+  width: 80%;
+  height: 100%;
   border-radius: 136px;
 }
 
-.section1 {
+/* .section1 {
   padding-top: 100px;
   padding-bottom: 100px;
-  display: inline;
+} */
+
+.col-1-3 {
+  display: block;
+  height: 300px;
+  width: 33.33%;
+}
+/* section 2 image class */
+.section2Image {
+  margin: 20%;
+  width: 250px;
+  height: 250px;
+  border-radius: 126px;
 }
 
+.section2ImageDiv {
+  width: 100%;
+  height: 80%;
+  display: inline-block;
+}
 .textDiv {
   width: 50%;
   text-align: center;
@@ -81,6 +115,21 @@
   font-weight: bold;
   font-size: 77px;
   line-height: 89px;
+}
+
+.align-content-center {
+  height: 20%;
+  width: 100%;
+}
+
+.section2text {
+  height: 100%;
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
 }
 
 .section1body {
