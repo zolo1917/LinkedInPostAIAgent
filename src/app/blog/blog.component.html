@@ -1,2 +1,27 @@
-<p>blog works!</p>
-<p>this is a test file to check if routing is working</p>
+<div class="row">
+    <div class="col-hf2">
+        <form [formGroup]="blogForm" (ngSubmit)="OnSubmit()">
+            <div>
+                <label for="eventTitle">Event : </label>
+                <input name="eventTitle" formControlName="eventTitle" placeholder="Event Title" type="text"/>
+            </div>
+            <div>
+                <label for="eventDesc">Details :</label>
+                <textarea name="eventDesc" formControlName="eventDesc" id="eventDesc" cols="100" rows="5"></textarea>
+            </div>
+            <div class="col-xs-12">
+                <button class="btn btn-success" type="submit">Save</button>
+                <button class="btn btn-danger" type="button" (click)="OnCancle()">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <div *ngFor="let event of eventList; let arrayIndex = index" class="col-hf2">
+        <div class="row">
+            <h2> {{event.eventTitle}}</h2>
+        </div>
+        <div class="row">
+            <p> {{event.eventDesc}}</p>
+        </div>
+        <hr/>
+    </div>
+</div>
