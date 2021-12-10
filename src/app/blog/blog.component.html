@@ -15,7 +15,7 @@
             </div>
         </form>
     </div>
-    <div *ngFor="let event of eventList; let arrayIndex = index" class="col-hf2">
+    <div *ngFor="let event of eventList.reverse(); let arrayIndex = index" class="col-hf2">
         <div class="row">
             <h2> {{event.eventTitle}}</h2>
         </div>

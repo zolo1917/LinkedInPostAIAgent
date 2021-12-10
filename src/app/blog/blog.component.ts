@@ -34,6 +34,7 @@ export class BlogComponent implements OnInit {
   }
 
   OnCancle() {
+    this.initForm();
     console.log("form canceled");
   }
 
