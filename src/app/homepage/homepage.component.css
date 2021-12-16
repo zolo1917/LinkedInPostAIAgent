@@ -10,6 +10,12 @@
   border-radius: 146px;
 }
 
+.testimonialContentDiv {
+  padding-left: 10px;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
 .row {
   display: inline-flex;
   justify-content: center;
@@ -265,7 +271,7 @@
   /* stylings for positioning the buttons at
              the bottom of the carousel */
   position: absolute;
-  bottom: 3%;
+  bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 70;
