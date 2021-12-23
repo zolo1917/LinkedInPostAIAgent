@@ -3,7 +3,13 @@
   display: inline;
 }
 
-/* .col-hf2 {
-  width: 50%;
-  display: inline-flex;
-} */
+.col-hf2 {
+  width: 80%;
+  display: block;
+  align-self: center;
+}
+
+.img-size {
+  width: 70%;
+  height: 60%;
+}
