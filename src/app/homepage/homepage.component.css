@@ -36,18 +36,24 @@
   display: inline-block;
 }
 
+.sectionBreak {
+  margin: 40px;
+  width: 100%;
+}
+
 .section3Image {
   width: 80%;
   height: 80%;
   border-radius: 140px;
 }
 .section3text {
-  font-family: Comic Neue;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 4vw;
   line-height: 46px;
   text-align: center;
+  margin-top: 0%;
 }
 .oateyImage {
   margin: 20%;
@@ -62,7 +68,7 @@
 }
 
 .section4text {
-  font-family: Comic Neue;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 4vw;
@@ -83,6 +89,18 @@
   width: 33.33%;
 }
 
+.col-40 {
+  height: 100%;
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+}
+
+.col-60 {
+  height: 100%;
+  width: 60%;
+}
+
 .col-1-4 {
   display: block;
   height: 100%;
@@ -95,6 +113,7 @@
   height: 80%;
   border-radius: 126px;
   size-adjust: inherit;
+  margin-bottom: 10%;
 }
 
 .section2ImageDiv {
@@ -105,9 +124,10 @@
 .textDiv {
   width: 50%;
   text-align: center;
-  font-family: Comic Neue;
+  font-family: sans-serif;
   text-align: center;
   display: inline-block;
+  margin-left: 26px;
 }
 
 .align-content-center {
@@ -118,12 +138,13 @@
 .section2text {
   height: 100%;
   width: 100%;
-  font-family: Comic Neue;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 3vw;
   line-height: 100%;
   text-align: center;
+  margin-top: 0;
 }
 
 .section1Title {
@@ -134,11 +155,10 @@
 }
 
 .section1body {
-  font-family: Comic Neue;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 2vw;
-  line-height: 33px;
   text-align: center;
 }
 
@@ -317,3 +337,53 @@
   background-color: #308d46;
 }
 /* ----- end of carousel control buttons stylings ----- */
+
+/* Form CSS statements  */
+
+.queryForm {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  justify-content: left;
+  text-align: left;
+}
+
+.form-input {
+  padding: 6px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 10px;
+  display: block;
+}
+.form-label {
+  font-family: sans-serif;
+}
+.queryContent {
+  width: 80%;
+  resize: vertical;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  height: 150px;
+  font-family: sans-serif;
+}
+
+.form-row {
+  width: 100%;
+  justify-content: center;
+}
+.btn {
+  background-color: green;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 50%;
+  color: white;
+  font-weight: 600;
+}
+
+.align-center {
+  text-align: center;
+}
