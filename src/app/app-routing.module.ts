@@ -7,7 +7,7 @@ import { AboutComponent } from './about/about.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/homepage', pathMatch: 'full' },
+  { path: '',  component: HomepageComponent},
   { path: 'homepage', component: HomepageComponent },
   { path: 'blog', component: BlogComponent },
   // { path: 'recipes', component : RecipesComponent },
@@ -15,7 +15,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {useHash: true})],
+  imports: [RouterModule.forRoot(routes, {useHash: false})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
