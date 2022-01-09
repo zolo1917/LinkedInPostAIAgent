@@ -4,7 +4,7 @@
 }
 
 .copyWriteText {
-  font-family: Comic Neue;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
@@ -34,7 +34,8 @@
 
 .footer-icon {
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   align-self: left;
+  margin: 5px;
 }
