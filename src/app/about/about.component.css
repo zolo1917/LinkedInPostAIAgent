@@ -89,3 +89,11 @@
   height: 45%;
   align-self: center;
 }
+
+.borderRad {
+  border-radius: 100px;
+}
+
+.subscript {
+  font-size: 60%;
+}
