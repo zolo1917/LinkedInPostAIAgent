@@ -1,5 +1,6 @@
 import { FormControl, FormGroup } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 /**
  * Creatd by @zolo1917
@@ -12,9 +13,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-
+  httpAddress: string = 'https://formspree.io/f/xwkyvnvq';
   queryForm: FormGroup;
-  constructor() { }
+  constructor(private httpClient:HttpClient ) { }
 
   ngOnInit(): void {
     this.initializeQueryForm();
@@ -35,6 +36,13 @@ export class HomepageComponent implements OnInit {
   OnSubmit(){
     // TODO: submit the query form
     console.log(this.queryForm.value);
+    this.httpClient
+      .post(this.httpAddress, this.queryForm.value)
+      .subscribe((data) => {
+        console.log(data);
+      });
+
+    this.initializeQueryForm();
   }
 
 }
