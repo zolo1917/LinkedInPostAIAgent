@@ -10,6 +10,10 @@ import { BlogComponent } from './blog/blog.component';
 import { AboutComponent } from './about/about.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ChatbotComponent } from './chatbot/chatbot.component';
+import { ToMessageComponent } from './chatbot/toMessage.component';
+import { FromMessageComponent } from './chatbot/fromMessage.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,14 +23,19 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     BlogComponent,
     AboutComponent,
-    RecipesComponent
+    RecipesComponent,
+    ChatbotComponent,
+    ToMessageComponent,
+    FromMessageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [ToMessageComponent, FromMessageComponent]
 })
 export class AppModule { }
