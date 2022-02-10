@@ -14,6 +14,7 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
 import { ToMessageComponent } from './chatbot/toMessage.component';
 import { FromMessageComponent } from './chatbot/fromMessage.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
     RecipesComponent,
     ChatbotComponent,
     ToMessageComponent,
-    FromMessageComponent
+    FromMessageComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
