@@ -6,7 +6,9 @@
   margin-left: 5%;
   margin-right: 5%;
 }
-
+.top-padding-10x {
+  padding-top: 5px;
+}
 .col-hf2 {
   width: 100%;
   /* display: block; */
