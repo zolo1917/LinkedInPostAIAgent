@@ -9,6 +9,16 @@
 .top-padding-10x {
   padding-top: 5px;
 }
+
+.videoFrame {
+  width: 50%;
+  height: 100%;
+}
+
+.textAlignLeft {
+  padding-left: 25%;
+  text-align: left;
+}
 .col-hf2 {
   width: 100%;
   /* display: block; */
