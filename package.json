@@ -1,0 +1,27 @@
+{
+  "name": "ai-automation-tool",
+  "version": "1.0.0",
+  "description": "Create an automation tool that will create a post of 1000 charecters about the latest updateds on Twitter / linkedIn",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "dev": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lazyCoder1917",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@types/axios": "^0.14.4",
+    "@types/dotenv": "^8.2.3",
+    "@types/node": "^24.3.0",
+    "@types/node-cron": "^3.0.11",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.1",
+    "node-cron": "^4.2.1",
+    "nodemon": "^3.1.10",
+    "rss-parser": "^3.13.0",
+    "ts-node": "^10.9.2"
+  }
+}
